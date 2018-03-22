@@ -1,0 +1,62 @@
+Java
+
+    Переменные, типы данных, операторы
+    Логические операторы, операторы if else
+    Оператор switch
+    Строки
+    Массивы, сортировки
+    Циклы while, do while
+    Циклы for, for each
+    Объекты
+    Методы
+    Наследование
+    Модификаторы доступа
+    Исключения
+    Java Collection Framework
+    Наиболее частые реализации интерфейса List
+    Интерфейс Map
+
+Android
+
+    Introduction
+    Git VCS
+    Android Project
+    Base views
+    Activity Part 1 (lifecycle)
+    Activity Part 2 (saving state, activity result)
+    Intent
+    Fragment Part 1 (lifecycle)
+    Fragment Part 2 (interaction with activity)
+    Collection views Part 1: (ListView, GridView, adapters)
+    Collection views Part 2: (RecyclerView, RecyclerView adapters)
+
+    Material design patterns Part 1 (Toolbar, FloatingActionButton)
+    Material design patterns Part 2 (NavigationDrawer)
+    Collection views Part 1: (ListView, GridView, adapters)
+    Collection views Part 2: (RecyclerView, RecyclerView adapters)
+    Material design patterns Part 1 (Toolbar, FloatingActionButton)
+    Material design patterns Part 2 (NavigationDrawer)
+    Notifications
+    Dialogs
+    Custom views
+    Resource types
+    Threads in Android
+    UI performance
+    Storage and SharedPreference
+    SQLite database
+    Service
+    BroadCastReceivers
+    System BroadCastReceivers
+    App widget
+    Content Provider
+    Google Maps API
+    Camera Sensors, Work with Sms and MMS
+    REST
+    Third Party Libraries Part 1
+    Third Party Libraries Part 2
+    Third Party Libraries Part 3
+    Third Party Libraries Part 4
+    Facebook integration
+    Twitter and vk.com
+    Google Play Services
+

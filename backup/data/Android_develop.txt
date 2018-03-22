@@ -1,0 +1,12 @@
+Android develop
+
+	https://habrahabr.ru/post/336020/
+https://github.com/cesarferreira/dryrun
+https://www.sourcetreeapp.com/
+https://www.vysor.io/
+https://github.com/pedrovgs/AndroidWiFiADB
+https://devknox.io/
+https://github.com/pbreault/adb-idea
+https://fabric.io/
+https://github.com/google/android-classyshark
+https://www.codota.com/
