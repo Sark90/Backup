@@ -1,26 +1,24 @@
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.TimerTask;
-import java.util.zip.ZipOutputStream;
 
 public class BackupTask extends TimerTask {
-    private static final String BKP_DIR = "backup";
+    private static final String BKP_DIR = "backup/";
+    private static final String SRC_DIR = "data";
     private File dest;
 
     @Override
     public void run() {
-        copyFiles("data");
-        //packUp();
-        //System.out.println("Timer test");
+        copyFiles(SRC_DIR);
+        packUp();
     }
 
     private void copyFiles(String source) {
         File src = new File(source);
-        dest = new File(BKP_DIR + "/" + source);
+        dest = new File(BKP_DIR + source);
         if(src.isDirectory()) {
             dest.mkdirs();
             File[] files = src.listFiles();
@@ -37,15 +35,7 @@ public class BackupTask extends TimerTask {
         }
     }
 
-    private void packUp() throws FileNotFoundException {
-        File bkpData = new File(BKP_DIR);
-        //File[] files = bkpData.listFiles();
-        for(File f: bkpData.listFiles()) {
-            if (f.isDirectory()) {
-                //TODO: zip
-                /*ZipOutputStream out = new ZipOutputStream(new FileOutputStream(f.getName() + "_copy.zip"));
-                File file = new File("folder");*/
-            }
-        }
+    private void packUp() {
+        new Packer().dirToZip(BKP_DIR + SRC_DIR);
     }
 }

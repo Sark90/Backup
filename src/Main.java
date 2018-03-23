@@ -3,6 +3,13 @@ import java.util.Timer;
 public class Main {
 
     public static void main(String[] args) {
-        new Timer().schedule(new BackupTask(),3000, 5000);
+        Timer timer = new Timer();
+        timer.schedule(new BackupTask(),1000, 20000);
+        try {
+            Thread.sleep(75000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        timer.cancel();
     }
 }
